@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93a2ea4e-4845-4a18-8178-d150a3e4a976" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exerciseTwelve/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exerciseTwelve/CarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exerciseTwelve/CarServiceMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exerciseTwelve/EngineType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exerciseTwelve/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exerciseTwelve/Manufacturer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exerciseEight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exerciseEight/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exerciseEight/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exerciseEight/Validator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +44,25 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.exerciseEight.Main">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="exerciseTwelve" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CarServiceMain">
+    <configuration name="CarServiceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exerciseTwelve.CarServiceMain" />
+      <module name="java131-day2-juliakaminska" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exerciseTwelve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exerciseSeven.Main" />
       <module name="java131-day2-juliakaminska" />
@@ -67,8 +89,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="exerciseTwelve.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exerciseTwelve.Main" />
+      <module name="java131-day2-juliakaminska" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exerciseTwelve.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarServiceMain" />
+        <item itemvalue="Application.exerciseTwelve.Main" />
         <item itemvalue="Application.exerciseEight.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -97,12 +134,20 @@
       <option name="project" value="LOCAL" />
       <updated>1674301179308</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Exercise 8 validator full version">
+      <created>1674304431947</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674304431947</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercise 7 gun" />
     <MESSAGE value="Exercise 8 validator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise 8 validator" />
+    <MESSAGE value="Exercise 8 validator full version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise 8 validator full version" />
   </component>
 </project>
