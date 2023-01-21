@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Gun {
 
-    private int maxMagazineSize;
-    private List<String> magazine = new ArrayList<>();
+    private final int maxMagazineSize;
+    private final List<String> magazine = new ArrayList<>();
 
     public Gun(int magazineSize){
         this.maxMagazineSize = magazineSize;
@@ -22,11 +22,7 @@ public class Gun {
         System.out.println(magazine);
     }
     public boolean isLoaded(){
-        if (magazine.size() > 0){
-            return true;
-        }else {
-            return false;
-        }
+        return magazine.size() > 0;
     }
     public void shot(){
         if (isLoaded()){
