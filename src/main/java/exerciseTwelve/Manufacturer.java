@@ -30,4 +30,13 @@ public class Manufacturer {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "Manufacturer{" +
+                "name='" + name + '\'' +
+                ", yearOfFundation=" + yearOfFundation +
+                ", country='" + country + '\'' +
+                '}';
+    }
 }
